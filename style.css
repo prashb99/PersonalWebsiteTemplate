@@ -1,0 +1,41 @@
+html{
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	margin:0;
+	background-image: url("gray.jpg");
+}
+
+
+h1{
+	background-size: cover;
+	text-align: center;
+	border: 5px solid coral;
+	border-radius: 10px;
+	box-sizing: border-box;
+	float:center;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
+
+p{	
+	box-sizing: border-box;
+	background-color: white;
+	
+	text-align: center;
+
+
+}
+
+html{
+	scroll-behavior: smooth;
+	background-attachment: scroll;
+}
+::-webkit-scrollbar{
+	width: 12px;
+}
