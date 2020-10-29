@@ -5,31 +5,51 @@ html{
 
 body {
 	margin:0;
-	background-image: url("gray.jpg");
+	background-image: url("background.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 
 
 h1{
 	background-size: cover;
 	text-align: center;
-	border: 5px solid coral;
 	border-radius: 10px;
 	box-sizing: border-box;
+	position:relative; top:45px;
 	float:center;
 	width: 20%;
 	margin-left: auto;
 	margin-right: auto;
+}
 
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
 
+li{
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
 }
 
 p{	
 	box-sizing: border-box;
-	background-color: white;
-	
 	text-align: center;
-
-
+	position:relative; top:70px;
 }
 
 html{
