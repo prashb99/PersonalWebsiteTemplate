@@ -109,6 +109,7 @@ ul {
 	animation-fill-mode: both;
 }
 
+/* Animation code for the main paragraph */
 .typewrite1 {
 	color: wheat;
 	overflow: hidden;
