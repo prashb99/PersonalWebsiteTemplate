@@ -49,16 +49,68 @@ ul {
 	width: 100%;
 }
 
-pre {	
-	position: relative; top:200px; left: 600px;
-	color: wheat;
-	/* text-align: center; */
+#line1 {
+	font-size: large;
+	width: 115px;
+	margin-left: 30%;
+	margin-top: 10%;
+	animation-fill-mode: both;
 }
 
-html {
-	scroll-behavior: smooth;
-	background-attachment: scroll;
+#line2 {
+	font-size: large;
+	width: 700px;
+	margin-left: 30%;
+	margin-top: 50px;
+	animation-delay: .7s;
+	animation-fill-mode: both;
 }
-::-webkit-scrollbar{
-	width: 12px;
+
+#line3 {
+	font-size: large;
+	width: 700px;
+	margin-left: 30%;
+	margin-top: 10px;
+	animation-delay: 2.1s;
+	animation-fill-mode: both;
+}
+
+#line4 {
+	font-size: large;
+	width: 700px;
+	margin-left: 30%;
+	margin-top: 10px;
+	animation-delay: 3.5s;
+	animation-fill-mode: both;
+}
+
+#line5 {
+	font-size: large;
+	width: 700px;
+	margin-left: 30%;
+	margin-top: 10px;
+	animation-delay: 5.1s;
+	animation-fill-mode: both;
+}
+
+.typewrite1 {
+	color: wheat;
+	overflow: hidden;
+	border-right: .15em solid wheat;
+	white-space: nowrap;
+	margin: 0 auto;
+	letter-spacing: .10em;
+	animation:
+		typing 3.5s steps(100, end),
+		blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+	from {width: 0}
+	to { width: 100% }
+}
+
+@keyframes blink-caret {
+	from, to { border-color: transparent }
+	100% { border-color: wheat;}
 }
